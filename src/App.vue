@@ -1,30 +1,36 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="layout">
+    <header>
+      <img src="../src/assets/brain-life-logo.webp"></img>
+      <h1>EEG Data collection</h1>
+    </header>
+    
+    <main>
+      <RouterView />
+    </main>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style>
+/* You can add global layout styles here */
+#layout {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+header{
+  display: flex;
+  flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0.5em;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+header h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+header img{
+  width: 20%;
+  height: unset;
 }
 </style>

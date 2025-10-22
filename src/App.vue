@@ -33,4 +33,14 @@ header img{
   width: 20%;
   height: unset;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header img {
+    width: 50%;
+  }
+}
 </style>

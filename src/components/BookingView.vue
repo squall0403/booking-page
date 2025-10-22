@@ -16,7 +16,7 @@
   
         <div class="form-group">
           <label for="phone">Phone</label>
-          <input id="phone" v-model="phone" type="tel" />
+          <input id="phone" v-model="phone" type="tel" required placeholder="e.g., 0381234567" />
         </div>
   
         <div class="form-group">

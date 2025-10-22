@@ -1,0 +1,8 @@
+.button, .button.button-outline,
+button.button-outline,
+input[type='button'].button-outline,
+input[type='reset'].button-outline,
+input[type='submit'].button-outline  {
+    background-color: #0040e6 !important;
+    border-color: #0040e6 !important;
+}

@@ -4,7 +4,7 @@
       <img src="../src/assets/brain-life-logo.webp"></img>
       <h1>EEG Data collection</h1>
     </header>
-    
+    <hr/>
     <main>
       <RouterView />
     </main>

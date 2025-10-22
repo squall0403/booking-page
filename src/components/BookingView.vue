@@ -2,6 +2,7 @@
     <div class="booking-container">
       <h2>Book Your Appointment</h2>
       <p>Please fill out your details and select an available slot.</p>
+      <p>View your registered slot <a href="/my-booking">here</a></p>
   
       <form @submit.prevent="handleBooking" class="booking-form">
         <div class="form-group">

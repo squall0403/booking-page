@@ -2,7 +2,7 @@
   <div class="my-booking-container">
     <h2>Find My Booking</h2>
     <p>Enter your phone number to find your registered slot.</p>
-
+    <p>In case you wish to cancel your booking, please contact us directly via email: <a href="mailto:phat.lam@brainlife.ai">phat.lam@brainlife.ai</a></p>
     <form @submit.prevent="handleSearch" class="booking-form">
       <div class="form-group">
         <label for="phone">Phone Number</label>
